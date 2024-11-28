@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Library Books - Explore Listing Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-liberty-market.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 577 Liberty Market
+
+https://templatemo.com/tm-577-liberty-market
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="index.html">AnaSayfa</a></li>
+                        <li><a href="explore.html" class="active">Kitapları Keşfet</a></li>
+                        <li><a href="details.html">Kitap Detayları</a></li>
+                        <li><a href="author.html">Yazarlar</a></li>
+                        <li><a href="create.html">Kendin Oluştur</a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menü</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  
+
+  <div class="discover-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="section-heading">
+             
+            <h2>Keşfetmeniz Gereken Bazı <em>Kitaplar</em>.</h2>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <form id="search-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-4">
+                <fieldset>
+                    <input type="text" name="keyword" class="searchText" placeholder="Birşeyler Yazın..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-3">
+                <fieldset>
+                    <select name="Category" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
+                        <option selected>Tüm Kategoriler</option>
+                        <option type="checkbox" name="option1" value="Music">Müzik</option>
+                        <option value="Digital">Dijital</option>
+                        <option value="Blockchain">Blockchain</option>
+                        <option value="Virtual">Sanal</option>
+                    </select>
+                </fieldset>
+              </div>
+              <div class="col-lg-3">
+                <fieldset>
+                    <select name="Price" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
+                        <option selected>Mevcut</option>
+                        <option value="Ending-Soon">Yakında Sona Eren</option>
+                        <option value="Coming-Soon">Yakında Çıkacak Olan</option>
+                        <option value="Closed">Kapalı</option>
+                    </select>
+                </fieldset>
+              </div>
+              <div class="col-lg-2">                        
+                <fieldset>
+                    <button class="main-button">Ara</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        
+       <div class="currently-market">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <div class="line-dec"></div>
+            <h2><em>Piyasadaki</em> Ürünlerimiz.</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="filters">
+            <ul>
+              <li data-filter="*"  class="active">Tüm Kitaplar</li>
+              <li data-filter=".msc">Popüler</li>
+              <li data-filter=".dig">En Son</li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="row grid">
+            <div class="col-lg-6 currently-market-item all msc">
+              <div class="item">
+                <div class="left-image">
+                  <img src="assets/images/book1.webp" alt="" style="border-radius: 20px; min-width: 195px;">
+                </div>
+                <div class="right-content">
+                  <h4>Sarah Maas</h4>
+                  <span class="author">
+                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
+                    <h6>Robert T Kiyosaki</h6>
+                  </span>
+                  <div class="line-dec"></div>
+                  <span class="bid">
+                    Şuanki Stok<br><strong>10</strong><br> 
+                  </span>
+                  <span class="ends">
+                    Total<br><strong>20</strong><br>
+                  </span>
+                  <div class="text-button">
+                    <a href="details.html">Kitap Detaylarına Bak</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+            <div class="col-lg-6 currently-market-item all msc">
+              <div class="item">
+                <div class="left-image">
+                  <img src="assets/images/book2.webp" alt="" style="border-radius: 20px; min-width: 195px;">
+                </div>
+                <div class="right-content">
+                  <h4>Broken Blade</h4>
+                  <span class="author">
+                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
+                    <h6>Robert T Kiyosaki</h6>
+                  </span>
+                  <div class="line-dec"></div>
+                  <span class="bid">
+                    Şuanki Stok<br><strong>10</strong><br> 
+                  </span>
+                  <span class="ends">
+                    Total<br><strong>20</strong><br>
+                  </span>
+                  <div class="text-button">
+                    <a href="details.html">Kitap Detaylarına Bak</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-6 currently-market-item all msc">
+              <div class="item">
+                <div class="left-image">
+                  <img src="assets/images/book3.webp" alt="" style="border-radius: 20px; min-width: 195px;">
+                </div>
+                <div class="right-content">
+                  <h4>Dwarves</h4>
+                  <span class="author">
+                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
+                    <h6>Robert T Kiyosaki</h6>
+                  </span>
+                  <div class="line-dec"></div>
+                  <span class="bid">
+                    Şuanki Stok<br><strong>10</strong><br> 
+                  </span>
+                  <span class="ends">
+                    Total<br><strong>20</strong><br>
+                  </span>
+                  <div class="text-button">
+                    <a href="details.html">Kitap Detaylarına Bak</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-6 currently-market-item all msc">
+              <div class="item">
+                <div class="left-image">
+                  <img src="assets/images/book4.webp" alt="" style="border-radius: 20px; min-width: 195px;">
+                </div>
+                <div class="right-content">
+                  <h4>Steven Erikson</h4>
+                  <span class="author">
+                    <img src="assets/images/author.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
+                    <h6>Robert T Kiyosaki</h6>
+                  </span>
+                  <div class="line-dec"></div>
+                  <span class="bid">
+                    Şuanki Stok<br><strong>10</strong><br> 
+                  </span>
+                  <span class="ends">
+                    Total<br><strong>20</strong><br>
+                  </span>
+                  <div class="text-button">
+                    <a href="details.html">Kitap Detaylarına Bak</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+        
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2024</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
