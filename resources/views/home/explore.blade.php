@@ -24,7 +24,7 @@
         <div class="col-md-6" style="margin-top: 100px;">
           <div class="filters">
             <ul>
-              <li data-filter="*"  class="active">All Books</li>
+              <li data-filter="*"  class="active">Tüm Kitaplar</li>
 
               @foreach($category as $category)
 
@@ -56,13 +56,13 @@
         		
         		<div class="col-md-8">
 
-        			<input class="form-control" type="search" name="search" placeholder="Search for book title , auther name ">
+        			<input class="form-control" type="search" name="search" placeholder="Kitap adı veya, yazar adı ">
         			
         		</div>
 
         		<div class="col-md-4">
         			
-        			<input class="btn btn-primary" type="submit" value="Search">
+        			<input class="btn btn-primary" type="submit" value="Ara">
 
         		</div>
 
@@ -92,17 +92,17 @@
                   </span>
                   <div class="line-dec"></div>
                   <span class="bid">
-                    Current Available<br><strong>{{$data->quantity}}</strong><br> 
+                    Güncel Stok<br><strong>{{$data->quantity}}</strong><br> 
                   </span>
                   
                   <div class="text-button">
-                    <a href="{{url('book_details',$data->id)}}">View Book Details</a>
+                    <a href="{{url('book_details',$data->id)}}">Kitap Detaylarına Bak</a>
                   </div>
 
                 </br>
 
                   <div class="">
-                    <a class="btn btn-primary" href="{{url('borrow_books',$data->id)}}">Apply to Borrow</a>
+                    <a class="btn btn-primary" href="{{url('borrow_books',$data->id)}}">Ödünç Alın</a>
                   </div>
                 </div>
               </div>

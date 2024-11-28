@@ -21,15 +21,15 @@
         <div class="col-lg-6">
           <div class="section-heading">
             <div class="line-dec"></div>
-            <h2><em>Items</em> Currently In The Market.</h2>
+            <h2><em>Piyasadaki</em> Ürünlerimiz.</h2>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="filters">
             <ul>
-              <li data-filter="*"  class="active">All Books</li>
-              <li data-filter=".msc">Popular</li>
-              <li data-filter=".dig">Latest</li>
+              <li data-filter="*"  class="active">Tüm Kitaplar</li>
+              <li data-filter=".msc">Popüler</li>
+              <li data-filter=".dig">Son Gelenler</li>
               
             </ul>
           </div>

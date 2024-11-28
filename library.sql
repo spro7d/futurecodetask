@@ -46,10 +46,10 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`id`, `title`, `auther_name`, `price`, `description`, `quantity`, `book_img`, `auther_img`, `category_id`, `created_at`, `updated_at`) VALUES
-(4, 'Sarah MAAS', 'Ristifer', '150', 'A great Journey', '0', '1707907895.webp', '1707907895.jpg', 2, '2024-02-14 03:20:58', '2024-02-14 04:51:35'),
-(5, 'Broken Blade', 'Jenifer', '240', 'A warrior story', '25', '1707902524.webp', '1707902524.jpg', 2, '2024-02-14 03:22:04', '2024-02-14 03:22:04'),
-(6, 'Drwaf', 'Moli', '120', 'Different life', '10', '1707902568.webp', '1707902568.jpg', 1, '2024-02-14 03:22:48', '2024-02-21 09:25:46'),
-(7, 'Steven Ericson', 'Steven Ericson', '300', 'Steven Ericson life story', '49', '1707902612.webp', '1707902612.jpg', 5, '2024-02-14 03:23:32', '2024-02-21 09:16:46');
+(4, 'Sarah MAAS', 'Ristifer', '150', 'Harika Bir Yolculuk', '0', '1707907895.webp', '1707907895.jpg', 2, '2024-02-14 03:20:58', '2024-02-14 04:51:35'),
+(5, 'Broken Blade', 'Jenifer', '240', 'Bir savaş hikayesi', '25', '1707902524.webp', '1707902524.jpg', 2, '2024-02-14 03:22:04', '2024-02-14 03:22:04'),
+(6, 'Drwaf', 'Moli', '120', 'Değişik Yaşam', '10', '1707902568.webp', '1707902568.jpg', 1, '2024-02-14 03:22:48', '2024-02-21 09:25:46'),
+(7, 'Steven Ericson', 'Steven Ericson', '300', 'Steven Ericson un hayat hikayesi', '49', '1707902612.webp', '1707902612.jpg', 5, '2024-02-14 03:23:32', '2024-02-21 09:16:46');
 
 -- --------------------------------------------------------
 
@@ -162,7 +162,7 @@ CREATE TABLE `password_reset_tokens` (
 --
 
 INSERT INTO `password_reset_tokens` (`email`, `token`, `created_at`) VALUES
-('yaminshakil7@gmail.com', '$2y$12$SVfpNMIrAtwcjhCwsWp66Owz0fTHxJ31LLKtDCyOtfarIf8qcbYLO', '2024-02-27 01:00:50');
+('ozayardasahin@gmail.com', '$2y$12$SVfpNMIrAtwcjhCwsWp66Owz0fTHxJ31LLKtDCyOtfarIf8qcbYLO', '2024-02-27 01:00:50');
 
 -- --------------------------------------------------------
 
@@ -242,7 +242,7 @@ INSERT INTO `users` (`id`, `name`, `email`, `phone`, `address`, `usertype`, `ema
 (1, 'user', 'user@gmail.com', '985423', 'Usa', 'user', NULL, '$2y$12$yyFN1ZwOIXN1/elHIBWHy.9u1h/iwyhUmFDiT9ZFK0RNN28bZYule', NULL, NULL, NULL, NULL, NULL, NULL, '2024-02-05 03:53:40', '2024-02-05 03:53:40'),
 (2, 'admin', 'admin@gmail.com', '852585258', 'Canada', 'admin', NULL, '$2y$12$v2M/tltkVT/U4j5IhLQAwOLZ3Nk1Pzo8xkBkrhVDNMlV1jKg6cKKO', NULL, NULL, NULL, NULL, NULL, NULL, '2024-02-05 03:54:42', '2024-02-05 03:54:42'),
 (3, 'user2', 'user2@gmail.com', '1845125', 'usa', 'user', NULL, '$2y$12$nwRPZJnVIe0XEDy/f6A4U.LM9S/BohlkXzgSgbwdqD47hBN6sr5H.', NULL, NULL, NULL, NULL, NULL, NULL, '2024-02-22 00:32:09', '2024-02-22 00:32:09'),
-(4, 'yamin shakil', 'yaminshakil7@gmail.com', '01745741710', 'dhaka', 'user', NULL, '$2y$12$I8A7TblIPa8gXjZCg3qv6.NVCY1ctYJjt0EoTUwSItbtN8C965m5m', NULL, NULL, NULL, 'ewQHTdHJ7FDOqFv1g3rsRxQqzrq1mevs3EyIgO0DhB9dK3BdRUeJpNTrE8O7', NULL, NULL, '2024-02-22 20:33:05', '2024-02-22 20:45:05');
+(4, 'arda sahin', 'ozayardasahin@gmail.com', '01745741710', 'dhaka', 'user', NULL, '$2y$12$I8A7TblIPa8gXjZCg3qv6.NVCY1ctYJjt0EoTUwSItbtN8C965m5m', NULL, NULL, NULL, 'ewQHTdHJ7FDOqFv1g3rsRxQqzrq1mevs3EyIgO0DhB9dK3BdRUeJpNTrE8O7', NULL, NULL, '2024-02-22 20:33:05', '2024-02-22 20:45:05');
 
 --
 -- Indexes for dumped tables

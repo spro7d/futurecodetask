@@ -4,7 +4,7 @@
         <div class="col-lg-6">
           <div class="section-heading">
             <div class="line-dec"></div>
-            <h2><em>Items</em> Currently In The Market.</h2>
+            <h2><em>Piyasadaki</em> Ürünlerimiz.</h2>
           </div>
         </div>
 
@@ -16,9 +16,9 @@
         <div class="col-lg-6">
           <div class="filters">
             <ul>
-              <li data-filter="*"  class="active">All Books</li>
-              <li data-filter=".msc">Popular</li>
-              <li data-filter=".dig">Latest</li>
+              <li data-filter="*"  class="active">Tüm Kitaplar</li>
+              <li data-filter=".msc">Popüler</li>
+              <li data-filter=".dig">Son Gelenler</li>
               
             </ul>
           </div>
@@ -42,17 +42,17 @@
                   </span>
                   <div class="line-dec"></div>
                   <span class="bid">
-                    Current Available<br><strong>{{$data->quantity}}</strong><br> 
+                    Güncel Stok<br><strong>{{$data->quantity}}</strong><br> 
                   </span>
                   
                   <div class="text-button">
-                    <a href="{{url('book_details',$data->id)}}">View Book Details</a>
+                    <a href="{{url('book_details',$data->id)}}">Kitabın Detaylarına Bak</a>
                   </div>
 
                 </br>
 
                   <div class="">
-                    <a class="btn btn-primary" href="{{url('borrow_books',$data->id)}}">Apply to Borrow</a>
+                    <a class="btn btn-primary" href="{{url('borrow_books',$data->id)}}">Ödünç Alın</a>
                   </div>
                 </div>
               </div>

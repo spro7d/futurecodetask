@@ -2,7 +2,6 @@
     <div class="container">
       <div class="row">
 
-        <!-- ***** Main Banner Area Start ***** -->
    @if(session()->has('message'))
 
             <div class="alert alert-success">
@@ -19,15 +18,12 @@
 
         <div class="col-lg-6 align-self-center">
           <div class="header-text">
-            <h6>Book is Knowledge</h6>
-            <h2>Knowledge is Power</h2>
-            <p>Library is a really cool and professional design for your websites. This HTML CSS template is based on Bootstrap v5 and it is designed for related web portals. Liberty can be freely downloaded from github</p>
+            <h6>Kitap Bilgidir</h6>
+            <h2>Bilgi ise Güç</h2>
+            <p>Kütüphaneler, sadece kitaplarla dolu raflardan ibaret değildir. Her bir kitap, her bir kaynak, birer bilgi ışığıdır. Kütüphaneler, insanın merakını besler, hayal gücünü geliştirir ve dünyanın dört bir yanındaki bilgiyi erişilebilir kılar. Bir kütüphane, keşfe açık bir evrendir; her köşesinde yeni bir öğrenme fırsatı, her sayfasında derinleşen bir anlayış sunar. Gerçek anlamda zenginlik, kütüphanelerin derinliklerinde yatmaktadır.</p>
             <div class="buttons">
               <div class="border-button">
-                <a href="explore.html">Explore Top Books</a>
-              </div>
-              <div class="main-button">
-                <a href="" target="_blank">Watch Our Videos</a>
+                <a href="explore.html">Popüler Kitaplar</a>
               </div>
             </div>
           </div>
@@ -45,4 +41,3 @@
       </div>
     </div>
   </div>
-  <!-- ***** Main Banner Area End ***** -->

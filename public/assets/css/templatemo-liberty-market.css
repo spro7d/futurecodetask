@@ -1,36 +1,5 @@
-/*
-
-TemplateMo 577 Liberty Market
-
-https://templatemo.com/tm-577-liberty-market
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -112,11 +81,6 @@ img {
   overflow: hidden;
 }
 
-/* 
----------------------------------------------
-Global Styles
---------------------------------------------- 
-*/
 html,
 body {
   background: #fff;
@@ -231,12 +195,6 @@ section {
   font-style: normal;
 }
 
-/* 
----------------------------------------------
-Pre-loader Style
---------------------------------------------- 
-*/
-
 .js-preloader {
   position: fixed;
   top: 0;
@@ -330,14 +288,6 @@ Pre-loader Style
   background: #7453fc;
   border-radius: 50%;
 }
-
-
-
-/* 
----------------------------------------------
-Header Style
---------------------------------------------- 
-*/
 
 .background-header {
   background-color: #fff !important;
@@ -722,11 +672,6 @@ Header Style
   }
 }
 
-/* 
----------------------------------------------
-Banner Style
---------------------------------------------- 
-*/
 
 .main-banner {
   background-image: url(../images/background.jpg);
@@ -805,13 +750,6 @@ Banner Style
 .main-banner .owl-nav .owl-next span:hover {
   opacity: 1;
 }
-
-
-/* 
----------------------------------------------
-Categories & Collections Style
---------------------------------------------- 
-*/
 
 .categories-collections {
   background-image: url(../images/dark-bg.jpg);
@@ -985,13 +923,6 @@ Categories & Collections Style
   opacity: 1;
 }
 
-
-/* 
----------------------------------------------
-Create NFT Style
---------------------------------------------- 
-*/
-
 .create-nft {
   background-image: url(../images/main-bg.jpg);
   background-repeat: no-repeat;
@@ -1079,14 +1010,6 @@ Create NFT Style
 .create-nft .item a {
   color: #3CF;
 }
-
-
-
-/* 
----------------------------------------------
-Currently Market Style
---------------------------------------------- 
-*/
 
 .currently-market {
   background-image: url(../images/dark-bg.jpg);
@@ -1220,14 +1143,6 @@ Currently Market Style
   border-bottom: 1px solid #7453fc;
 }
 
-
-
-/* 
----------------------------------------------
-Footer Style
---------------------------------------------- 
-*/
-
 footer {
   background: rgb(125,90,254);
   background: linear-gradient(132deg, rgba(125,90,254,1) 25%, rgba(160,84,244,1) 100%);
@@ -1249,13 +1164,6 @@ footer p a:hover {
   color: #fff;
   opacity: 0.75;
 }
-
-
-/* 
----------------------------------------------
-Page Heading Style
---------------------------------------------- 
-*/
 
 .normal-space {
   padding: 250px 0px 120px 0px !important;
@@ -1308,14 +1216,6 @@ Page Heading Style
 .page-heading .buttons .border-button {
   margin-left: 15px;
 }
-
-
-
-/* 
----------------------------------------------
-Explore Style
---------------------------------------------- 
-*/
 
 .featured-explore {
   margin-top: 60px;
@@ -1614,13 +1514,6 @@ Explore Style
   margin-top: 5px;
 }
 
-
-/* 
----------------------------------------------
-Details Page Style
---------------------------------------------- 
-*/
-
 .item-details-page {
   background-image: url(../images/dark-bg.jpg);
   background-repeat: no-repeat;
@@ -1848,13 +1741,6 @@ Details Page Style
   color: #7453fc;
 }
 
-
-/* 
----------------------------------------------
-Author Page Style
---------------------------------------------- 
-*/
-
 .author-page {
   background-image: url(../images/dark-bg.jpg);
   background-repeat: no-repeat;
@@ -1987,13 +1873,6 @@ Author Page Style
   text-align: center;
 }
 
-
-/* 
----------------------------------------------
-Create Page Style
---------------------------------------------- 
-*/
-
 #contact {
   background-color: #37393c;
   border-radius: 20px;
@@ -2035,15 +1914,6 @@ Create Page Style
   width: 100%;
   text-align: center;
 }
-
-
-
-
-/* 
----------------------------------------------
-Responsive Style
---------------------------------------------- 
-*/
 
 body {
   overflow-x: hidden;

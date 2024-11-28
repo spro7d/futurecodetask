@@ -71,11 +71,11 @@
         <table class="table_deg">
           
           <tr>
-            <th>Book Name</th>
-            <th>Book Auther</th>
-            <th>Book Status</th>
-            <th>Image</th>
-            <th>Cancel Request</th>
+            <th>Kitap Adı</th>
+            <th>Yazar</th>
+            <th>Kitap Durumu</th>
+            <th>Kitap Kapağı</th>
+            <th>Talebi Reddet</th>
            
           </tr>
 
@@ -95,11 +95,11 @@
 
                 @if($data->status == 'Applied')
 
-              <a href="{{url('cancel_req',$data->id)}}" class="btn btn-warning">Cancel</a>
+              <a href="{{url('cancel_req',$data->id)}}" class="btn btn-warning">İptal</a>
 
               @else
 
-                <p style="color: white; font-weight: bold;">Not Allowed</p>
+                <p style="color: white; font-weight: bold;">İzin Verilmedi</p>
 
               @endif
             </td>
